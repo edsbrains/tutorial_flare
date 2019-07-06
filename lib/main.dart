@@ -35,10 +35,9 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         body: Center(
             child: FlareActor(
-          "assets/loading.flr",
-          animation: "Load1",
+          "assets/loader.flr",
+          animation: "loading",
           color: Colors.blueAccent,
-          alignment: Alignment.center,
           fit: BoxFit.fill,
         )) // This trailing comma makes auto-formatting nicer for build methods.
         );
